@@ -8,10 +8,24 @@ To write a program to implement the K Means Clustering for Customer Segmentation
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+STEP 1: START
+
+STEP 2: Import necessary libraries and load the customer dataset using pandas. Preview the dataset using data.head().
+
+STEP 3: Check for missing values and inspect the dataset structure using data.info() and data.isnull().sum().
+
+STEP 4: Import the KMeans algorithm from sklearn.cluster and initialize an empty list wcss to store inertia values (Within-Cluster Sum of Squares).
+
+STEP 5: Use a for loop (from 1 to 10) to apply KMeans with different numbers of clusters. Fit the model to the relevant columns and store the WCSS values for each iteration in wcss.
+
+STEP 6: Plot the WCSS values to visualize the "Elbow Method" and determine the optimal number of clusters.
+
+STEP 7: Apply KMeans with the chosen number of clusters (5), predict cluster labels, and add the results to a new column cluster in the dataset.
+
+STEP 8: Visualize the clusters using a scatter plot, separating data points by their cluster labels.
+
+STEP 9: END
+
 
 ## Program:
 ```
@@ -67,7 +81,21 @@ plt.title("Customer Segments")
 ```
 
 ## Output:
-![K Means Clustering for Customer Segmentation](sam.png)
+Elbow Method
+![image](https://github.com/user-attachments/assets/13fd413c-ecfe-4dac-bc8e-7cb5457cefcf)
+
+KMeans
+![image](https://github.com/user-attachments/assets/2aa8cfd4-bdec-4014-b8d1-a58620843d9f)
+
+y_prediction
+![image](https://github.com/user-attachments/assets/bac04dce-990a-4359-ad03-ff88cefd1f29)
+
+Customer_Segments
+![image](https://github.com/user-attachments/assets/6b524e8a-59c1-47fa-b7bb-2122feafe0da)
+
+
+
+
 
 
 ## Result:
