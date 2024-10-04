@@ -82,15 +82,23 @@ plt.title("Customer Segments")
 
 ## Output:
 Elbow Method
+
+
 ![image](https://github.com/user-attachments/assets/13fd413c-ecfe-4dac-bc8e-7cb5457cefcf)
 
 KMeans
+
+
 ![image](https://github.com/user-attachments/assets/2aa8cfd4-bdec-4014-b8d1-a58620843d9f)
 
 y_prediction
+
+
 ![image](https://github.com/user-attachments/assets/bac04dce-990a-4359-ad03-ff88cefd1f29)
 
 Customer_Segments
+
+
 ![image](https://github.com/user-attachments/assets/6b524e8a-59c1-47fa-b7bb-2122feafe0da)
 
 
